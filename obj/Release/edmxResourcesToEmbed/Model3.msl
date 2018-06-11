@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="grocerystoredbModelStoreContainer" CdmEntityContainer="grocerystoredbEntities2">
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="grocerystoredbModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="mrp" ColumnName="mrp" />
+          <ScalarProperty Name="expire" ColumnName="expire" />
+          <ScalarProperty Name="mfd" ColumnName="mfd" />
+          <ScalarProperty Name="productcode" ColumnName="productcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
